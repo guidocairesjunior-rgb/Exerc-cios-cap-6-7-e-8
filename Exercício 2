@@ -1,0 +1,6 @@
+function removeDuplicatas(numeros) {
+  return [...new Set(numeros)];
+}
+
+console.log(removeDuplicatas([1, 1, 2, 2, 3, 3]));
+// Saída esperada: [1, 2, 3]

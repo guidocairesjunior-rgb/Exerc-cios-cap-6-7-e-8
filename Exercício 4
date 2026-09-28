@@ -1,0 +1,6 @@
+const jogador = {};
+jogador.nome = 'Rodrigo';
+jogador.idade = 33;
+
+console.log(jogador.nome + ' ' + jogador.idade);
+// Saída esperada: Rodrigo 33
